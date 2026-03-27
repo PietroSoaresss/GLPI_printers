@@ -11,12 +11,12 @@ App Android simples para registrar toner usado direto no GLPI, sem backend local
 
 ## Configuracao local
 
-O repositório publico nao leva credenciais.
+O repositório nao precisa levar credenciais reais.
 
-1. copie [app-config.local.example.js](C:/Users/agrossdobrasil/Documents/dev/Glpi/app/app-config.local.example.js) para `app/app-config.local.js`
-2. preencha `glpiBaseUrl`, `glpiAppToken`, `glpiUserToken` e, se precisar, `glpiProfileId`
+1. preencha [app-config.local.js](C:/Users/agrossdobrasil/Documents/dev/Glpi/app/app-config.local.js) localmente
+2. use [app-config.local.example.js](C:/Users/agrossdobrasil/Documents/dev/Glpi/app/app-config.local.example.js) como referencia
 
-O arquivo `app/app-config.local.js` esta no `.gitignore` e nao deve ser commitado.
+O arquivo `app/app-config.local.js` esta no `.gitignore`.
 
 ## Comandos
 

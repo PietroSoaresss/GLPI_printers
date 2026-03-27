@@ -5,6 +5,7 @@ node_modules
 app/app-config.local.js
 android/app/src/main/assets/public/
 tmp-icon-preview/
+.gradle-user-home/
 android/.gradle
 android/local.properties
 android/capacitor-cordova-android-plugins

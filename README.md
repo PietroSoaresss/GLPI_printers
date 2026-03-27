@@ -1,6 +1,6 @@
 # Registro de Toner GLPI
 
-App Android simples para registrar toner usado direto no GLPI, sem backend local e sem tela de credenciais.
+App Android simples para registrar toner usado direto no GLPI, sem backend local.
 
 ## Fluxo
 

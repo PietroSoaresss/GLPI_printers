@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Remover Toner GLPI</string>
+    <string name="title_activity_main">Remover Toner GLPI</string>
+    <string name="package_name">com.agrossdobrasil.glpi</string>
+    <string name="custom_url_scheme">com.agrossdobrasil.glpi</string>
+</resources>

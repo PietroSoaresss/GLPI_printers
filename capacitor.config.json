@@ -1,0 +1,11 @@
+{
+  "appId": "com.agrossdobrasil.glpi",
+  "appName": "Remover Toner GLPI",
+  "webDir": "app",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

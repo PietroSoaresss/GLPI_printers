@@ -1,0 +1,35 @@
+# Registro de Toner GLPI
+
+App Android simples para registrar toner usado direto no GLPI, sem backend local e sem tela de credenciais.
+
+## Fluxo
+
+- seletor de impressora
+- botao `Enviar`
+- registro direto na API do GLPI
+- aviso de quantos toners compativeis ainda restam
+
+## Configuracao local
+
+O repositório publico nao leva credenciais.
+
+1. copie [app-config.local.example.js](C:/Users/agrossdobrasil/Documents/dev/Glpi/app/app-config.local.example.js) para `app/app-config.local.js`
+2. preencha `glpiBaseUrl`, `glpiAppToken`, `glpiUserToken` e, se precisar, `glpiProfileId`
+
+O arquivo `app/app-config.local.js` esta no `.gitignore` e nao deve ser commitado.
+
+## Comandos
+
+```bash
+npm install
+npm test
+npm run android:sync
+npm run android:open
+```
+
+## Estrutura atual
+
+- interface em [app](C:/Users/agrossdobrasil/Documents/dev/Glpi/app)
+- cliente GLPI em [glpi.js](C:/Users/agrossdobrasil/Documents/dev/Glpi/app/lib/glpi.js)
+- fluxo de impressoras e toners em [printerWorkflow.js](C:/Users/agrossdobrasil/Documents/dev/Glpi/app/lib/printerWorkflow.js)
+- projeto Android em [android](C:/Users/agrossdobrasil/Documents/dev/Glpi/android)

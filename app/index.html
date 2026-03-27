@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Uso de Toner GLPI</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div class="eyebrow">GLPI</div>
+        <h1>Registro de toner</h1>
+        <p class="lede">
+          Selecione a impressora e confirme o registro do toner.
+        </p>
+      </section>
+
+      <section class="card stack">
+        <form id="action-form" class="stack">
+          <div class="field">
+            <label for="printerId">Impressora</label>
+            <select id="printerId" name="printerId" required>
+              <option value="">Carregando impressoras...</option>
+            </select>
+          </div>
+
+          <button id="remove-toner" type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section id="status-panel" class="status-panel">
+        <strong>Pronto.</strong>
+        <span>Selecione a impressora e envie.</span>
+      </section>
+    </main>
+
+    <script src="./app-config.local.js"></script>
+    <script type="module" src="./renderer.js"></script>
+  </body>
+</html>

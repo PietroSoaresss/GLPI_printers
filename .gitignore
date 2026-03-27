@@ -1,0 +1,12 @@
+.env
+coverage
+dist
+node_modules
+app/app-config.local.js
+android/app/src/main/assets/public/
+tmp-icon-preview/
+android/.gradle
+android/local.properties
+android/capacitor-cordova-android-plugins
+android/capacitor-cordova-android-plugins-facade
+.idea
